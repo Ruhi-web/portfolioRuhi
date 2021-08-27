@@ -1,38 +1,257 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+:root{
+  --primary-black: #000;
+  --primary-white:#fff;
+  --primary-text-color: #616161;
+  --main-pink: #b56ea1;
+  --secondary-pink:#edc8e6a3;
+}
+body{
+  background-color:var(--primary-black);
+  font-family: 'PT Sans'
+}
+
+img{
+  width: 100%;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-outer-wrap{
+  padding: 20px;
+  margin: 10px;
+}
+.app-border{
+  padding: 2px;
+  border: 5px solid var(--primary-white);
+  border-radius: 20px;
+}
+.app-content-wrapper{
+  padding: 20px;
+  min-height: 90vh;
+}
+
+.app-sidebar{
+  background-color: var(--primary-white);
+  border: 2px solid var(--primary-white);
+  border-radius: 25px;
+  height: 100%;
+  font-family: inherit;
+}
+
+.app-main-content{
+  background-color: var(--primary-white);
+  border: 2px solid var(--primary-white);
+  border-radius: 25px;
+  height: 100%;
+}
+
+
+.sidebar_item{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'PT Sans';
+
+}
+.sidebar-name{
+  font-family: 'Berkshire Swash', cursive;
+  color: var(--main-pink);
+}
+
+.sidebar-title{
+  background-color: var(--secondary-pink);
+  border-radius: 20px;
+  font-weight: bold;
+}
+.sidebar_resume{
+  color: #000;
+  text-decoration: none;
+}
+
+.sidebar_resume i{
+  font-size: 2rem;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.sidebar_item a{
+  padding: 25px;  
+}
+
+.sidebar_item a i{
+  font-size: 2rem;
+  color: var(--main-pink);
+}
+
+.contact{
+  background-color: var(--secondary-pink);
+}
+
+.sidebar-email{
+  background: #000;
+  color: var(--primary-white);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* Navbar */
+
+.nav-active{
+font-size: 2rem;
+font-weight: bold;
+color: var(--primary-text-color);
+border-bottom: 5px solid var(--main-pink);
+font-family: 'PT Sans';
+}
+.nav-items{
+  display: flex;
+  font-family: 'PT Sans';
+}
+.nav-item{
+  padding-left: 15px;
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+
+.nav-item:hover{
+  color: var(--main-pink);
+}
+
+.about_content_wrap{
+  background-color:var(--secondary-pink);
+  padding: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about_intro{
+  padding: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about_content{
+  height: 355px;
+  overflow-y: scroll;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.skill-card{
+  background-color: Var(--primary-white);
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5px;
+  padding-top: 25px;
+  border-radius: 20px;
+  min-height: 22vh;
+}
+.skill_content{
+  text-align: left;
+}
+.skill_content_title{
+  font-weight: bold;
+}
+.skill_icon{
+  padding-top: 5px;
+}
+.skill_icon i{
+  font-size: 2rem;
+  color: var(--main-pink);
 }
 
-.App-link {
-  color: #61dafb;
+.bar-content{
+  background: #61616175;
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+.bar-progress{
+  padding: 1px 15px;
+  background: linear-gradient(90deg, hsla(317, 32%, 57%, 1) 0%,  hsla(311, 51%, 86%, 1) 100%);
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.resume-card-heading{
+  font-weight: bold;
+}
+.resume-card{
+  margin-top: 20px;
+}
+.resume-lang{ 
+  margin-top: 30px;
+}
+.resume-lang h5{
+  font-weight: bold;
+}
+.bar-name{
+  margin: 5px;
+  color: #fff;
+}
+
+.projects{
+  min-height: 60vh;
+}
+.projects_navbar{
+  display: flex;
+}
+.navbar_item{
+  margin-right: 5px;
+  cursor: pointer;
+  color: var(--primary-text-color);
+}
+
+.navbar_item:hover{
+  color: var(--main-pink);
+}
+.projects-content{
+  background-color: var(--secondary-pink);
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 2rem;
+}
+.projectCard_image{
+  border-radius: 20px;
+  min-width: 230px;
+    height: 165px;
+}
+.fa-github{
+  color: var(--main-pink);
+  font-size: 1.5rem;
+  padding-top: 4px;
+  padding-right: 4px;
+}
+
+@media (max-width: 991px){
+
+  .app-sidebar{
+    margin-bottom: 15px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  .app-main-content {
+    
+    margin-top: 10px;
+}
+.port_image{
+width: 60%;
+margin: 0 auto;
+}
+
+.sidebar_item{
+  margin-top: 15px;
+}
+.app-content-wrapper{
+  padding: 0;
+}
+.app-outer-wrap {
+  padding: 5px;
+}
+.skill-card{
+  flex-direction: column;
+    align-items: center;
+}
+.skill_content{
+  padding-left: 5px;
+}
 }
