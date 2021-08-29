@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar'
 import About from './components/About';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
-import {BrowserRouter as Router, Redirect, Route, Switch} from 'react-router-dom'
+import {HashRouter as Router, Redirect, Route, Switch} from 'react-router-dom'
 function App() {
   return (
     <Router>
