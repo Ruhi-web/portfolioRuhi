@@ -223,6 +223,10 @@ font-family: 'PT Sans';
   padding-top: 4px;
   padding-right: 4px;
 }
+.proj_content{
+  max-height: 62vh;
+    overflow-y: scroll;
+}
 
 @media (max-width: 991px){
 

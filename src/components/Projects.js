@@ -18,7 +18,7 @@ const Projects=() =>{
                 <div className="navbar_item"onClick={()=>handleFilterCategory('bootstrap')}>Bootstrap</div>
                 <div className="navbar_item"onClick={()=>handleFilterCategory('javascript')}>Javascript</div>
             </div>
-            <div className="row my-4 py-2 text-center">
+            <div className="row my-4 py-2 text-center proj_content">
             {
                 projects.map(project=>
                     <ProjectCard key={ProjectCard.name} project={project} />
