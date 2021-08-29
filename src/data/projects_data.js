@@ -1,6 +1,6 @@
 import search from '../images/pr1.jpg'
 import pr2 from '../images/pr2.jpg'
-import pr3 from '../images/pr3.jpg'
+import pr3 from '../images/BGgenerator.png'
 import pr4 from '../images/pr4.jpg'
 import pr5 from '../images/pr5.jpg'
 import pr6 from '../images/pr2.jpg'
@@ -26,7 +26,7 @@ const data_projects = [
         category: ['bootstrap']
     },
     {
-        name: 'Javascript',
+        name: 'Background Generator',
         image: pr3,
         deployed_url: 'https://ruhi-web.github.io/Gradient-Generator-using-JS/',
         category: ['javascript']
