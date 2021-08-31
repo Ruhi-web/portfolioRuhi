@@ -5,8 +5,15 @@ import pr4 from '../images/pr4.jpg'
 import pr5 from '../images/pr5.jpg'
 import pr6 from '../images/pr2.jpg'
 import todo from '../images/todolist_pic.JPG'
+import weather from '../images/weather.JPG'
 
 const data_projects = [
+    {
+        name: 'Weather',
+        image: weather,
+        deployed_url:'https://ruhi-web.github.io/weather-app/',
+        category: ['react']
+    },
     {
         name: 'Todolist',
         image: todo,
