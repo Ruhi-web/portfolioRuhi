@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolioRuhi/static/css/main.111217d3.chunk.css",
-    "main.js": "/portfolioRuhi/static/js/main.4bdf97fb.chunk.js",
-    "main.js.map": "/portfolioRuhi/static/js/main.4bdf97fb.chunk.js.map",
+    "main.js": "/portfolioRuhi/static/js/main.dfd103b8.chunk.js",
+    "main.js.map": "/portfolioRuhi/static/js/main.dfd103b8.chunk.js.map",
     "runtime-main.js": "/portfolioRuhi/static/js/runtime-main.4aea1cc9.js",
     "runtime-main.js.map": "/portfolioRuhi/static/js/runtime-main.4aea1cc9.js.map",
     "static/js/2.816ed97a.chunk.js": "/portfolioRuhi/static/js/2.816ed97a.chunk.js",
@@ -17,12 +17,13 @@
     "static/media/pr2.1142c201.jpg": "/portfolioRuhi/static/media/pr2.1142c201.jpg",
     "static/media/pr4.09ac6afc.jpg": "/portfolioRuhi/static/media/pr4.09ac6afc.jpg",
     "static/media/pr5.1785a63f.jpg": "/portfolioRuhi/static/media/pr5.1785a63f.jpg",
-    "static/media/todolist_pic.ff24a7ea.JPG": "/portfolioRuhi/static/media/todolist_pic.ff24a7ea.JPG"
+    "static/media/todolist_pic.ff24a7ea.JPG": "/portfolioRuhi/static/media/todolist_pic.ff24a7ea.JPG",
+    "static/media/weather.84153c26.JPG": "/portfolioRuhi/static/media/weather.84153c26.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.4aea1cc9.js",
     "static/js/2.816ed97a.chunk.js",
     "static/css/main.111217d3.chunk.css",
-    "static/js/main.4bdf97fb.chunk.js"
+    "static/js/main.dfd103b8.chunk.js"
   ]
 }
