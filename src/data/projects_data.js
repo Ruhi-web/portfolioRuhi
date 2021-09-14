@@ -7,8 +7,15 @@ import pr6 from '../images/pr2.jpg'
 import todo from '../images/todolist_pic.JPG'
 import weather from '../images/weather.JPG'
 import quiz from '../images/quiz-app.JPG'
+import bakery from '../images/bakery-scrnshot.JPG'
 
 const data_projects = [
+    {
+        name: 'PSD to HTML/CSS/JS',
+        image: bakery,
+        deployed_url:'https://ruhi-web.github.io/BakeryWebsite/',
+        category: ['bootstrap']
+    },
     {
         name: 'Quiz App',
         image: quiz,
