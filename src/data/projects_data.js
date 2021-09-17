@@ -8,8 +8,22 @@ import todo from '../images/todolist_pic.JPG'
 import weather from '../images/weather.JPG'
 import quiz from '../images/quiz-app.JPG'
 import bakery from '../images/bakery-scrnshot.JPG'
+import nodejsmailer from '../images/nodejsmailer.JPG'
+import foodrecipe from '../images/food_recipeAPP.JPG'
 
 const data_projects = [
+    {
+        name: 'Food Recipe App using API',
+        image: foodrecipe,
+        deployed_url:'https://ruhi-web.github.io/foodRecipe/',
+        category: ['react']
+    },
+    {
+        name: 'Mailer using nodejs',
+        image: nodejsmailer,
+        deployed_url:'https://ruhi-web.github.io/nodejsMailer/',
+        category: ['nodejs']
+    },
     {
         name: 'PSD to HTML/CSS/JS',
         image: bakery,

@@ -30,7 +30,7 @@ const languages = [
     {
         icon:'',
         name:'NodeJS',
-        level:'40%'
+        level:'70%'
     },
 ]
 

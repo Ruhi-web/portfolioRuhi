@@ -5,11 +5,11 @@ const skills = [
   {
     icon: <i className="fas fa-laptop"></i>,
     title: 'Frontend Development',
-    content: 'I can build a beautiful and scalable SPA using HTML, CSS and React.js'
+    content: 'I can build a beautiful and scalable SPA using HTML, CSS and React.js. Also have experience building wordpress website'
   }, {
     icon: <i className="fas fa-database"></i>,
     title: 'Backend Development',
-    content: 'have experience working on database, PHP and SQL'
+    content: 'I have good knowledge on nodeJs and have experience working on PHP and SQL'
   }, {
     icon: <i className="fas fa-cogs"></i>,
     title: 'Competitive Coder',
@@ -18,7 +18,7 @@ const skills = [
   {
     icon: <i className="fal fa-phone-laptop"></i>,
     title: 'Responsive Design',
-    content: 'can create responsive design which works efficiently on all screen size'
+    content: 'can create responsive design which works efficiently on all screen size including mobile and Tablet'
   },
   {
     icon: <i className="fab fa-wordpress"></i>,
@@ -28,7 +28,7 @@ const skills = [
   {
     icon: <i className="fab fa-drupal"></i>,
     title: 'Drupal',
-    content: 'have experience working in Drupal live websites'
+    content: 'have experience working in Drupal websites'
   },
 ]
 
