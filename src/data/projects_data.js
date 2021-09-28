@@ -10,8 +10,15 @@ import quiz from '../images/quiz-app.JPG'
 import bakery from '../images/bakery-scrnshot.JPG'
 import nodejsmailer from '../images/nodejsmailer.JPG'
 import foodrecipe from '../images/food_recipeAPP.JPG'
+import UserRegister from '../images/MernStackProject-Register User.JPG'
 
 const data_projects = [
+    {
+        name: 'User Registration Form using MERN stack',
+        image: UserRegister,
+        deployed_url:'https://github.com/Ruhi-web/mernUserRegister',
+        category: ['react']
+    },
     {
         name: 'Food Recipe App using API',
         image: foodrecipe,
