@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolioRuhi/static/css/main.111217d3.chunk.css",
-    "main.js": "/portfolioRuhi/static/js/main.67e765c8.chunk.js",
-    "main.js.map": "/portfolioRuhi/static/js/main.67e765c8.chunk.js.map",
+    "main.js": "/portfolioRuhi/static/js/main.74df639e.chunk.js",
+    "main.js.map": "/portfolioRuhi/static/js/main.74df639e.chunk.js.map",
     "runtime-main.js": "/portfolioRuhi/static/js/runtime-main.4aea1cc9.js",
     "runtime-main.js.map": "/portfolioRuhi/static/js/runtime-main.4aea1cc9.js.map",
     "static/js/2.5740e20a.chunk.js": "/portfolioRuhi/static/js/2.5740e20a.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/2.5740e20a.chunk.js.LICENSE.txt": "/portfolioRuhi/static/js/2.5740e20a.chunk.js.LICENSE.txt",
     "static/media/BGgenerator.151df498.png": "/portfolioRuhi/static/media/BGgenerator.151df498.png",
     "static/media/MernStackProject-Register User.0fcb89d1.JPG": "/portfolioRuhi/static/media/MernStackProject-Register User.0fcb89d1.JPG",
-    "static/media/RuhiReactWebDev2021.aca19caa.pdf": "/portfolioRuhi/static/media/RuhiReactWebDev2021.aca19caa.pdf",
+    "static/media/RuhiNazWD.4c08789f.pdf": "/portfolioRuhi/static/media/RuhiNazWD.4c08789f.pdf",
     "static/media/bakery-scrnshot.7819e6cb.JPG": "/portfolioRuhi/static/media/bakery-scrnshot.7819e6cb.JPG",
     "static/media/food_recipeAPP.4c0f8c57.JPG": "/portfolioRuhi/static/media/food_recipeAPP.4c0f8c57.JPG",
     "static/media/girl.67a4955f.png": "/portfolioRuhi/static/media/girl.67a4955f.png",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.4aea1cc9.js",
     "static/js/2.5740e20a.chunk.js",
     "static/css/main.111217d3.chunk.css",
-    "static/js/main.67e765c8.chunk.js"
+    "static/js/main.74df639e.chunk.js"
   ]
 }
