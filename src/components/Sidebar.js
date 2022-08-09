@@ -1,6 +1,6 @@
 import React from 'react'
 import Girl from '../images/girl.png'
-import resume from '../images/RuhiReactWebDev2021.pdf'
+import resume from '../images/RuhiNazWD.pdf'
 
 
 const Sidebar = () => {
@@ -32,10 +32,10 @@ const Sidebar = () => {
       </figure>
       <div className="contact">
         <div className="sidebar_item sidebar_location">
-        <i className="fas fa-map-marker-alt"></i> Dubai, UAE
+        <i className="fas fa-map-marker-alt"></i> Chennai, India
         </div>
         <div className="sidebar_item">ruhinaz09@gmail.com</div>
-        <div className="sidebar_item">+971557972886</div>
+        <div className="sidebar_item">+919789806921</div>
       </div>
       <div className="sidebar_item sidebar-email" onClick={()=>window.open("mailto:ruhinaz09@gmail.com")}>email me</div>
     </div>
